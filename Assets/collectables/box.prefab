@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hatCount: {fileID: 0}
+  hatType: box
 --- !u!64 &1733218972043590927
 MeshCollider:
   m_ObjectHideFlags: 0
