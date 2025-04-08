@@ -22,6 +22,10 @@ public class Collectable : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (unique)
+        {
+            hatCount.uniqueHats += 1;
+        }
         if(other.CompareTag("Player"))
         {
             hatCount.hatCount += 1;
