@@ -54,7 +54,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5325946591343197189, guid: bf6e11fc773d31f4692f9d3bf6420531, type: 3}
       propertyPath: m_Name
-      value: NPC_prototype_2 (14) Variant
+      value: npcWithSpikyWig
+      objectReference: {fileID: 0}
+    - target: {fileID: 5325946591343197189, guid: bf6e11fc773d31f4692f9d3bf6420531, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -62,13 +66,42 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3967510704303452085, guid: bf6e11fc773d31f4692f9d3bf6420531, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4152628199443673857}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5325946591343197189, guid: bf6e11fc773d31f4692f9d3bf6420531, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6760046069313670520}
   m_SourcePrefab: {fileID: 100100000, guid: bf6e11fc773d31f4692f9d3bf6420531, type: 3}
 --- !u!4 &2006990299116345261 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3967510704303452085, guid: bf6e11fc773d31f4692f9d3bf6420531, type: 3}
   m_PrefabInstance: {fileID: 3230539975542781976}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7294915267859809309 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5325946591343197189, guid: bf6e11fc773d31f4692f9d3bf6420531, type: 3}
+  m_PrefabInstance: {fileID: 3230539975542781976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6760046069313670520
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7294915267859809309}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.25, y: 0.93, z: 0.35}
+  m_Center: {x: -0.02, y: 0.455, z: 0}
 --- !u!1001 &3600778852948455057
 PrefabInstance:
   m_ObjectHideFlags: 0

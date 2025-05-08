@@ -128,7 +128,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5325946591343197189, guid: bf6e11fc773d31f4692f9d3bf6420531, type: 3}
       propertyPath: m_Name
-      value: NPC_prototype_2 Variant
+      value: npcWithRedCap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5325946591343197189, guid: bf6e11fc773d31f4692f9d3bf6420531, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -136,8 +140,37 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3967510704303452085, guid: bf6e11fc773d31f4692f9d3bf6420531, type: 3}
       insertIndex: 0
       addedObject: {fileID: 3012292377036728899}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5325946591343197189, guid: bf6e11fc773d31f4692f9d3bf6420531, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4760757641424354371}
   m_SourcePrefab: {fileID: 100100000, guid: bf6e11fc773d31f4692f9d3bf6420531, type: 3}
+--- !u!1 &4501074797046424625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5325946591343197189, guid: bf6e11fc773d31f4692f9d3bf6420531, type: 3}
+  m_PrefabInstance: {fileID: 8619493427951491124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &4760757641424354371
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4501074797046424625}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.25, y: 0.93, z: 0.35}
+  m_Center: {x: -0.02, y: 0.455, z: 0}
 --- !u!4 &4652775232624260993 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3967510704303452085, guid: bf6e11fc773d31f4692f9d3bf6420531, type: 3}
