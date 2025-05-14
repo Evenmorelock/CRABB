@@ -4836,6 +4836,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2596229885941606983, guid: ab10975800ac6024d9ce7e7a7db67e89, type: 3}
+      propertyPath: hatType
+      value: helmet
+      objectReference: {fileID: 0}
     - target: {fileID: 6003040027316973412, guid: ab10975800ac6024d9ce7e7a7db67e89, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.75
@@ -4879,6 +4883,10 @@ PrefabInstance:
     - target: {fileID: 6342411560352069086, guid: ab10975800ac6024d9ce7e7a7db67e89, type: 3}
       propertyPath: m_Name
       value: Helmet Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6342411560352069086, guid: ab10975800ac6024d9ce7e7a7db67e89, type: 3}
+      propertyPath: m_TagString
+      value: collectable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

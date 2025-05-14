@@ -8,6 +8,7 @@ public class Collectable : MonoBehaviour
     public UIManager hatCount;
     public string hatType;
     public bool unique;
+    public bool unlocked;
     // Start is called before the first frame update
     void Start()
     {

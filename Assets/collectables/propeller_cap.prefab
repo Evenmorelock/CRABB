@@ -4896,6 +4896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: propeller_cap
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0d1d280d8a15d6f439f2d93cd0f2fb93, type: 3}
+      propertyPath: m_TagString
+      value: collectable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

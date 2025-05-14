@@ -4896,6 +4896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: security_cap
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 62eda30cccee2c042b8b42d01c715f64, type: 3}
+      propertyPath: m_TagString
+      value: collectable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
