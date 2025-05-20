@@ -17,7 +17,7 @@ public class GroundCheck : MonoBehaviour
         
     }
     public void OnTriggerEnter(Collider other)
-    {
+    { 
         controller.isGrounded = true;
     }
     public void OnTriggerExit(Collider other)
