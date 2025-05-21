@@ -12,6 +12,7 @@ public class winNow : MonoBehaviour
     public titleScreen titleScreen;
     public GameObject finalScore;
     public TMPro.TextMeshProUGUI finalScoreText;
+    public AudioSource winsound;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +29,7 @@ public class winNow : MonoBehaviour
     {
         if(other.tag == "Player")
         {
+            winsound.Play();
             player.SetActive(false);
             playerCamera.SetActive(false);
             titleScreen.uUIObjective.SetActive(false);

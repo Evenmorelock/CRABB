@@ -61,6 +61,7 @@ public class pauseMenu : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         pauseMenuUI.SetActive(false);
+        HatMenuUI.SetActive(false);
         Time.timeScale = 1f;
         gameIsPaused = false;
     }
@@ -87,5 +88,191 @@ public class pauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         HatMenuUI.SetActive(true);
     }
-
+    public void equipSkull()
+    {
+        if (skullUnlocked == true)
+        {
+            skull.SetActive(true);
+            bucket.SetActive(false);
+            helmet.SetActive(false);
+            chefHat.SetActive(false);
+            propellerCap.SetActive(false);
+            box.SetActive(false);
+            cone.SetActive(false);
+            redCap.SetActive(false);
+            wig.SetActive(false);
+            securityCap.SetActive(false);
+            plate.SetActive(false);
+        }
+    }
+    public void equipBucket()
+    {
+        if (bucketUnlocked == true)
+        {
+            skull.SetActive(false);
+            bucket.SetActive(true);
+            helmet.SetActive(false);
+            chefHat.SetActive(false);
+            propellerCap.SetActive(false);
+            box.SetActive(false);
+            cone.SetActive(false);
+            redCap.SetActive(false);
+            wig.SetActive(false);
+            securityCap.SetActive(false);
+            plate.SetActive(false);
+        }
+    }
+    public void equipHelmet()
+    {
+        if (helmetUnlocked == true)
+        {
+            skull.SetActive(false);
+            bucket.SetActive(false);
+            helmet.SetActive(true);
+            chefHat.SetActive(false);
+            propellerCap.SetActive(false);
+            box.SetActive(false);
+            cone.SetActive(false);
+            redCap.SetActive(false);
+            wig.SetActive(false);
+            securityCap.SetActive(false);
+            plate.SetActive(false);
+        }
+    }
+    public void equipChefHat()
+    {
+        if (chefHatUnlocked == true)
+        {
+            skull.SetActive(false);
+            bucket.SetActive(false);
+            helmet.SetActive(false);
+            chefHat.SetActive(true);
+            propellerCap.SetActive(false);
+            box.SetActive(false);
+            cone.SetActive(false);
+            redCap.SetActive(false);
+            wig.SetActive(false);
+            securityCap.SetActive(false);
+            plate.SetActive(false);
+        }
+    }
+    public void equipPropellerCap()
+    {
+        if (propellerCapUnlocked == true)
+        {
+            skull.SetActive(false);
+            bucket.SetActive(false);
+            helmet.SetActive(false);
+            chefHat.SetActive(false);
+            propellerCap.SetActive(true);
+            box.SetActive(false);
+            cone.SetActive(false);
+            redCap.SetActive(false);
+            wig.SetActive(false);
+            securityCap.SetActive(false);
+            plate.SetActive(false);
+        }
+    }
+    public void equipBox()
+    {
+        if (boxUnlocked == true)
+        {
+            skull.SetActive(false);
+            bucket.SetActive(false);
+            helmet.SetActive(false);
+            chefHat.SetActive(false);
+            propellerCap.SetActive(false);
+            box.SetActive(true);
+            cone.SetActive(false);
+            redCap.SetActive(false);
+            wig.SetActive(false);
+            securityCap.SetActive(false);
+            plate.SetActive(false);
+        }
+    }
+    public void equipCone()
+    {
+        if (coneUnlocked == true)
+        {
+            skull.SetActive(false);
+            bucket.SetActive(false);
+            helmet.SetActive(false);
+            chefHat.SetActive(false);
+            propellerCap.SetActive(false);
+            box.SetActive(false);
+            cone.SetActive(true);
+            redCap.SetActive(false);
+            wig.SetActive(false);
+            securityCap.SetActive(false);
+            plate.SetActive(false);
+        }
+    }
+    public void equipRedCap()
+    {
+        if (redCapUnlocked == true)
+        {
+            skull.SetActive(false);
+            bucket.SetActive(false);
+            helmet.SetActive(false);
+            chefHat.SetActive(false);
+            propellerCap.SetActive(false);
+            box.SetActive(false);
+            cone.SetActive(false);
+            redCap.SetActive(true);
+            wig.SetActive(false);
+            securityCap.SetActive(false);
+            plate.SetActive(false);
+        }
+    }
+    public void equipWig()
+    {
+        if (wigUnlocked == true)
+        {
+            skull.SetActive(false);
+            bucket.SetActive(false);
+            helmet.SetActive(false);
+            chefHat.SetActive(false);
+            propellerCap.SetActive(false);
+            box.SetActive(false);
+            cone.SetActive(false);
+            redCap.SetActive(false);
+            wig.SetActive(true);
+            securityCap.SetActive(false);
+            plate.SetActive(false);
+        }
+    }
+    public void equipSecurityCap()
+    {
+        if (securityCapUnlocked == true)
+        {
+            skull.SetActive(false);
+            bucket.SetActive(false);
+            helmet.SetActive(false);
+            chefHat.SetActive(false);
+            propellerCap.SetActive(false);
+            box.SetActive(false);
+            cone.SetActive(false);
+            redCap.SetActive(false);
+            wig.SetActive(false);
+            securityCap.SetActive(true);
+            plate.SetActive(false);
+        }
+    }
+    public void equipPlate()
+    {
+        if (plateUnlocked == true)
+        {
+            skull.SetActive(false);
+            bucket.SetActive(false);
+            helmet.SetActive(false);
+            chefHat.SetActive(false);
+            propellerCap.SetActive(false);
+            box.SetActive(false);
+            cone.SetActive(false);
+            redCap.SetActive(false);
+            wig.SetActive(false);
+            securityCap.SetActive(false);
+            plate.SetActive(true);
+        }
+    }
 }

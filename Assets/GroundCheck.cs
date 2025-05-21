@@ -5,23 +5,25 @@ using UnityEngine;
 public class GroundCheck : MonoBehaviour
 {
     public playerController controller;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public List<Collider> collidingWith = new List<Collider>();
     public void OnTriggerEnter(Collider other)
-    { 
-        controller.isGrounded = true;
+    {
+        if (other.tag != "Player" && other.tag != "collectable")
+        {
+            collidingWith.Add(other);
+            controller.isGrounded = true;
+        }
     }
     public void OnTriggerExit(Collider other)
     {
-        controller.isGrounded = false;
+        if (other.tag != "Player" && other.tag != "collectable")
+        {
+            collidingWith.Remove(other);
+            if (collidingWith.Count <= 0)
+            {
+                controller.isGrounded = false;
+            }
+        }
     }
 }

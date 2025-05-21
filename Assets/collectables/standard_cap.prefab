@@ -4954,8 +4954,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hatCount: {fileID: 0}
-  hatType: standardCap
+  hatType: redCap
   unique: 0
+  unlocked: 0
+  pauseMenu: {fileID: 0}
 --- !u!4 &5762317338614005980 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bd8ad1f35c2d0d548914eee49927ebe4, type: 3}

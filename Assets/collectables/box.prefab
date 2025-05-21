@@ -4939,6 +4939,10 @@ MonoBehaviour:
   hatCount: {fileID: 0}
   hatType: box
   unique: 0
+  unlocked: 0
+  pauseMenu: {fileID: 0}
+  collect: {fileID: 0}
+  specialCollect: {fileID: 0}
 --- !u!64 &1733218972043590927
 MeshCollider:
   m_ObjectHideFlags: 0
