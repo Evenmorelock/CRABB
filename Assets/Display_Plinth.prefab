@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9208793679656212504}
   - component: {fileID: 1263882928342947362}
   - component: {fileID: 3167694997662163247}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Display_Plinth
   m_TagString: Untagged
   m_Icon: {fileID: 0}

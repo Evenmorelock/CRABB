@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1464541679651666309}
   - component: {fileID: 7619532546061214032}
   - component: {fileID: 475416549780270482}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bollard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
