@@ -15,7 +15,7 @@ public class loopAudio : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if (timer >= 188)
+        if (timer >= 190)
         {
             timer = 0;
             music.Play();
